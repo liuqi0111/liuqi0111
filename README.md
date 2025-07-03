@@ -1,5 +1,4 @@
 ## Hi there 👋
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=liuqi0111)
 ![Metrics](https://raw.githubusercontent.com/liuqi0111/liuqi0111/main/github-metrics.svg?cachebust=1)
 
 
