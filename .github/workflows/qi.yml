@@ -37,5 +37,3 @@ jobs:
           plugin_notable: yes
           plugin_notable_from: organization
           plugin_notable_types: commit
-          plugin_projects: no
-          plugin_projects_limit: 4
