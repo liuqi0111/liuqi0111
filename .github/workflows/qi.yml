@@ -1,5 +1,6 @@
 # Visit https://github.com/lowlighter/metrics#-documentation for full reference
 name: qi
+on:
   # Schedule updates (each hour)
   schedule: [{cron: "0 * * * *"}]
   # Lines below let you run workflow manually and on each commit
@@ -8,6 +9,7 @@ name: qi
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    environment: production
     permissions:
       contents: write
     steps:
