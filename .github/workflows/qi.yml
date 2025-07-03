@@ -1,0 +1,9 @@
+name: qi
+on: [push]  # 当代码推送时触发
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print a message
+        run: echo "GitHub Actions is enabled!"
